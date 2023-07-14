@@ -640,65 +640,83 @@
 
     <p> For example,you could make the following sequence of moves:</p>
 
-    <table> 
-    <table border="1"  align="center">
-        <tr>
-            <td>
-            <td><b>Starting Position:</b></td>
-                    <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                    <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                    <td width="300px">&nbsp;</td>
-                    <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                    <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                </td>
-        </tr>
-        <tr>
-            <td><b>black moves ahead:</b></td>
-                        <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                        <td width="300px">&nbsp;</td>
-                        <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                        <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                        <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-        </tr>
-         <tr>
-             <td><b>White jumps:</b></td>
-                          <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                          <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                          <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                          <td width="300px">&nbsp;</td>
-                          <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-
-            </tr>
-          <tr>
-             <td><b> Black moves ahead:</b></td>
-                       <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                       <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                       <td width="300px">&nbsp;</td>
-                       <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                       <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-            </tr>
-           <tr>
-              <td><b> Black jump:</b></td>
-                         <td width="300px">&nbsp;</td>
-                         <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                         <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                         <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                         <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-
-              </tr>
-
-           <tr>
-             <td><b> White moves ahead:</b></td>
+    <table border="1" align="center">
         
-                     <td width="300px">&nbsp;</td>   
-                     <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                     <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-                     <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                     <td width="40px"><img src="./black-ball@2x.png" alt=""></td>
-                     <td width="40px"><img src="./white-ball@2x.jpg" alt=""></td>
-            </tr>
+        <tr>
+            <th>Starting position:</th>
+
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td width="90px">&nbsp </td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+
             
-    </table>                      
+        </tr>
+
+        <tr>
+            <th>Black moves ahead:</th>
+
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td width="90px">&nbsp </td>
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+
+            
+        </tr>
+
+        <tr>
+            <th>White jumps:</th>
+
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td width="90px">&nbsp </td>
+            
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+
+            
+        </tr>
+
+        <tr>
+            <th>Black moves ahead:</th>
+
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+            <td width="90px">&nbsp </td>
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+
+            
+        </tr>
+
+        <tr>
+            <th>Black jump:</th>
+            <td width="90px">&nbsp </td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+           
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+
+            
+        </tr>
+        <tr>
+            <th>White moves ahead:</th>
+            <td width="90px">&nbsp </td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+           
+            <td><img src="./black-ball@2x.png" width="90px"></td>
+            <td><img src="./white-ball@2x.jpg" width="90px"></td>
+
+            
+        </tr>
+        
+
+    </table>                   
             
    <p>
     The backtracking method is named solvable and returns a boolean.in solvable we shall need to check whether we are at a leaf,
